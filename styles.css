@@ -2,3 +2,60 @@
   width: 100%;
   object-fit: contain
 }
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'EB Garamond', serif;
+  font-size: 28px;
+  color: #4D4D4C;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	color: #364962;
+	font-size: 40px;
+	text-align: center;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("images/toppbild-medtext.jpg");
+
+  /* Set a specific height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.palma {
+  background-image: url("images/palma.jpg");
+  /* Set a specific height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effec #364962t */
+  /*background-attachment: fixed;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  /*margin-bottom: 5%;*/
+  margin-top: 5%;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  background-color: white;
+  flex: 50%;
+  padding: 10px;
+  margin-top: 0%;
+}
