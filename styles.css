@@ -7,7 +7,7 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: 'EB Garamond', serif;
-  font-size: 30px;
+  font-size: 3vw;
   color: #4D4D4C;
   line-height: 1.6;
 }
@@ -15,7 +15,7 @@ body, html {
 h1 {
 	font-family: 'Raleway', sans-serif;
 	color: #364962;
-	font-size: 40px;
+	font-size: 4vw;
 	text-align: center;
 }
 
