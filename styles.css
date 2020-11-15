@@ -7,7 +7,7 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: 'EB Garamond', serif;
-  font-size: 3vw;
+  font-size: 2vw;
   color: #4D4D4C;
   line-height: 1.6;
 }
@@ -15,7 +15,7 @@ body, html {
 h1 {
 	font-family: 'Raleway', sans-serif;
 	color: #364962;
-	font-size: 4vw;
+	font-size: 3.5vw;
 	text-align: center;
 }
 
@@ -67,5 +67,10 @@ h1 {
 .footer {
   background-color: #D0D9E0;
   height: 200px;
+}
+
+.contact {
+	background-color: white;
+	height: 200px;
 }
 
