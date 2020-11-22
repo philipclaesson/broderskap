@@ -7,15 +7,38 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: 'EB Garamond', serif;
-  font-size: 2vw;
   color: #4D4D4C;
   line-height: 1.6;
+}
+
+h2 {
+  font-size: 2.6vw;
+  font-family: 'Raleway', sans-serif;
+  color: #364962;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 3.5vw;
+  }
+  body {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 7vw;
+  }
+  body {
+    font-size: 4vw;
+  }
 }
 
 h1 {
 	font-family: 'Raleway', sans-serif;
 	color: #364962;
-	font-size: 3.5vw;
 	text-align: center;
 }
 
