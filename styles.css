@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .full-image {
   width: 100%;
   object-fit: contain
@@ -20,7 +24,7 @@ h2 {
 
 @media screen and (min-width: 600px) {
   h1 {
-    font-size: 3.5vw;
+    font-size: 3vw;
   }
   body {
     font-size: 2vw;
@@ -52,7 +56,9 @@ button {
   display: inline-block;
   font-size: 16px;
 }
-
+button:hover {
+  background-color: #364962;
+}
 
 .container {
   position: relative;
@@ -70,6 +76,7 @@ button {
 
 .row {
   display: flex;
+  flex-wrap: wrap;
   margin-left: 10%;
   margin-right: 10%;
   /*margin-bottom: 5%;*/
@@ -86,6 +93,7 @@ button {
 
 .row-2 {
   display: flex;
+  flex-wrap: wrap;
   /*margin-left: 10%;*/
   /*margin-right: 10%;*/
   /*margin-bottom: 5%;*/
@@ -99,9 +107,32 @@ button {
   margin-top: 0%;
 }
 
+.column-2-text {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+@media (min-width: 600px) {
+  .column-2-text {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    padding: 5px;
+  }
+  .column-2 {
+    flex: 100%;
+  }
+}
+
 .footer {
   background-color: #D0D9E0;
-  height: 200px;
+  height: 15rem;
 }
 
 .contact {
