@@ -29,6 +29,9 @@ h2 {
   body {
     font-size: 2vw;
   }
+  .player {
+    max-width: 50%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -37,6 +40,9 @@ h2 {
   }
   body {
     font-size: 4vw;
+  }
+  .player {
+    max-width: 100%;
   }
 }
 
@@ -142,7 +148,6 @@ button:hover {
 }
 
 .player {
-  max-width: 50%;
   margin: auto;
   margin-top: 20px;
 }
